@@ -1,4 +1,11 @@
 /*
+ * Copyright (c) 2014 Damian Jason Lapidge
+ *
+ * The contents of this file are subject to the terms and conditions defined 
+ * within the file LICENSE.txt, located within this project's root directory.
+ */
+
+/*
  * stdio.h    : stderr, printf(), fprintf()
  * unistd.h   : geteuid(), close()
  * fcntl.h    : O_RDONLY, open()

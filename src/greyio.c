@@ -1,4 +1,11 @@
 /*
+ * Copyright (c) 2014 Damian Jason Lapidge
+ *
+ * The contents of this file are subject to the terms and conditions defined 
+ * within the file LICENSE.txt, located within this project's root directory.
+ */
+
+/*
  * stdlib.h: realloc()
  * unistd.h: ssize_t, size_t, read(), write()
  * string.h: memcpy()
