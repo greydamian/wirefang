@@ -30,9 +30,9 @@
 #include <linux/if_packet.h>
 
 /*
- * readall(), writeall()
+ * greyio.h: readall(), writeall()
  */
-#include "greyio.c"
+#include "greyio.h"
 
 void print_usage() {
     fprintf(stderr, "wirefang <file> <interface>\n");

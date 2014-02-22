@@ -2,7 +2,7 @@
 
 CC="cc"; # c compiler command
 
-SOURCE="wirefang.c";
+SOURCE="greyio.c wirefang.c";
 OUTPUT="../bin/wirefang";
 
 # compiler & linker flags
