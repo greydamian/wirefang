@@ -14,6 +14,8 @@
 #include <unistd.h>
 #include <string.h>
 
+#include "greyio.h"
+
 #define BUFSIZE 1024
 
 ssize_t readall(int fd, void **buf) {
