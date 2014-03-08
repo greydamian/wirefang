@@ -14,6 +14,27 @@ Compatibility
 
     * Linux
 
+Installation
+------------
+
+Full installation of wirefang is a 2 step process. However, the second step is 
+optional.
+
+Firstly, navigate to the src directory and run the following command:
+
+    $ bash build.sh
+
+Once this has completed, you can run wirefang by navigating to the bin 
+directory and running the following command:
+
+    # ./wirefang
+
+Secondly, and optionally, you can install wirefang system-wide by copying the 
+contents of the bin directory into your path. For example, you could execute a 
+command such as:
+
+    # cp bin/* /usr/local/bin/
+
 License
 -------
 
