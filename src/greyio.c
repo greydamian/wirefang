@@ -18,6 +18,9 @@
 
 #define BUFSIZE 1024
 
+static const char *version = "v1.0.0";
+static const char *authors = "Damian Jason Lapidge <grey@greydamian.org>";
+
 ssize_t readall(int fd, void **buf) {
     ssize_t total  = 0;
     ssize_t rbytes = 0;
