@@ -34,6 +34,9 @@
  */
 #include "greyio.h"
 
+static const char *version = "v1.0.0";
+static const char *authors = "Damian Jason Lapidge <grey@greydamian.org>";
+
 void print_usage() {
     fprintf(stderr, "wirefang <file> <interface>\n");
 }
