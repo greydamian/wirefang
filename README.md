@@ -6,13 +6,13 @@ Overview
 
 Wirefang is a simple packet injection utility.
 
-Wirefang reads bytes from a file and then writes those bytes to layer 2 (data 
-link) of a network interface.
+Wirefang reads bytes from a file and then writes those bytes to the data link 
+layer (layer 2) of a network interface.
 
 Compatibility
 -------------
 
-    * Linux
+* Linux
 
 Installation
 ------------
