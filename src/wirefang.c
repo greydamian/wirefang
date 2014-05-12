@@ -9,29 +9,31 @@
  * stdio.h    : stderr, printf(), fprintf()
  * unistd.h   : geteuid(), close()
  * fcntl.h    : O_RDONLY, open()
- * sys/ioctl.h: SIOCGIFINDEX, ioctl()
  * string.h   : memset(), strncpy()
  */
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include <sys/ioctl.h>
 #include <string.h>
 
 /*
  * sys/socket.h     : AF_PACKET, SOCK_RAW, socket(), bind()
  * net/ethernet.h   : ETH_P_ALL
  * net/if.h         : IFNAMSIZ, struct ifreq
- * linux_if_packet.h: struct sockaddr_ll
+ * linux/if_packet.h: struct sockaddr_ll
+ * sys/ioctl.h      : SIOCGIFINDEX, ioctl()
  */
 #include <sys/socket.h>
 #include <net/ethernet.h>
 #include <net/if.h>
 #include <linux/if_packet.h>
+#include <sys/ioctl.h>
 
 /*
+ * stdlib.h: free()
  * greyio.h: readall(), writeall()
  */
+#include <stdlib.h>
 #include "greyio.h"
 
 static const char *version = "v1.0.0";
@@ -111,6 +113,8 @@ int main(int argc, char *argv[]) {
         return 1; /* exit failure */
     }
     close(sd);
+
+    free(buf);
 
     return 0; /* exit success */
 }
