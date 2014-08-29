@@ -4,7 +4,7 @@ wirefang
 Overview
 --------
 
-Wirefang is a simple packet injection utility.
+Packet injection utility.
 
 Wirefang reads bytes from a file and then writes those bytes to the data link 
 layer (layer 2) of a network interface.
