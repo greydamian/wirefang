@@ -1,0 +1,14 @@
+wirefang v1.0.0
+------------------
+* Initial release
+
+TODO
+----
+* Switch from build script to setup script [v2.0.0]
+    * Add build/install/clean options
+* Read from stdin by default, instead of from a file [v2.0.0]
+* Add read from file option (-r <file>) [v2.0.0]
+* Add print help option (-h) [v2.0.0]
+* Add support for long options [v3.0.0]
+* Switch from build/setup script to Makefile [v4.0.0]
+
